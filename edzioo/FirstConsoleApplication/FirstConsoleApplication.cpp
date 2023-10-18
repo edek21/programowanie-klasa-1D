@@ -5,8 +5,13 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Nazwywam sie Edwin\n";
+	std::cout << "Hello World!\n"; 
+	std::cout << "Nazwywam sie Edwin\n";
+	std::cout << "X";// sta³a znakowa - musi byæ jeden znak
+	std::cout << "\n";
+	std::cout << "\n";
+	std::cout << 257 << "\n";// sta³a liczbowa ca³kowita
+	std::cout << 12.5 << "/n"; // sta³a liczbowa rzeczywista
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

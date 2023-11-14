@@ -134,7 +134,7 @@ void task8()
 
     lenghtFarenheit = 1.8 * lenghtCelcjusz + 32;
     std::cout << "Tmeperatura w stopniach Farenheita wynosi :" << lenghtFarenheit;
-
+    
 }
 int main()
 {
@@ -145,7 +145,7 @@ int main()
   //task5();
   //task6();
   //task7();
-    task8();
+//task8();
 }
 /*
 Algorytm - skoczony zbiór instrukcji realizuj¹cy postawiony przed nim zadanie

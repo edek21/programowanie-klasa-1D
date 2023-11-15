@@ -136,6 +136,24 @@ void task8()
     std::cout << "Tmeperatura w stopniach Farenheita wynosi :" << lenghtFarenheit;
     
 }
+//* Napisz program, który poprosi u¿ytkownika o podanie trzech liczb (a, b, c) i obliczy œredni¹ arytmetyczn¹ tych liczb. Nastêpnie wyœwietli wynik.
+void task9()
+{
+    float sideA, sideB, sideC, average;
+
+    std::cout << "Podaj liczbe:";
+    std::cin >> sideA;
+
+    std::cout << "Podaj drug¹ liczbe:";
+    std::cin >> sideB;
+
+    std::cout << "Podaj trzeci¹ liczbe:";
+    std::cin >> sideC;
+
+    average = (sideA + sideB + sideC) / 3;
+    std::cout << "Œrednia artymetyczna wynosi:" << average;
+}
+//
 int main()
 {
     setlocale(LC_CTYPE, "polish");
@@ -146,6 +164,7 @@ int main()
   //task6();
   //task7();
 //task8();
+    task9();
 }
 /*
 Algorytm - skoczony zbiór instrukcji realizuj¹cy postawiony przed nim zadanie

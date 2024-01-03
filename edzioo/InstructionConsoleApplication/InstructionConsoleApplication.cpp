@@ -73,11 +73,47 @@ void task4()
 	}
 
 }
+void task4()
+{
+	int firstNumber, secondNumber, thirdNumber, fourthNumber;
+	std::cout << "Podaj liczbe: \n";
+		std::cin >> firstNumber;
+
+	std::cout << "Podaj liczbe: \n";
+	std::cin >> secondNumber;
+
+	std::cout << "Podaj liczbe: \n";
+	std::cin >> thirdNumber;
+
+	std::cout << "Podaj liczbe: \n";
+	std::cin >> fourthNumber;
+
+	if (fourthNumber > firstNumber && fourthNumber > secondNumber && fourthNumber > thirdNumber)
+	{
+		std::cout << "Najwiêksza wartoœæ to " << fourthNumber << "\n";
+	}
+	else
+	{
+		if (thirdNumber > firstNumber && thirdNumber > secondNumber)
+			std::cout << "Najwiêksza wartoœæ to " << secondNumber << "\n";
+		else
+		{
+			if (secondNumber > firstNumber)
+				std::cout << "Najwiêksza wartoœæ to " << secondNumber << "\n";
+			else
+				std::cout << "Najwiêksza wartoœæ to " << firstNumber << "\n";
+
+		}
+	}
+}
+	
+
 int main()
 {
 	//task1();
-	task2();
-	task3();
+	//task2();
+	//task3();
+	task4();
 }
 
 

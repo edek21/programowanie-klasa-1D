@@ -34,10 +34,49 @@ void task3()
 	}
 }
 
+
+//Napisz program, który poprosi u¿ytkownika o wprowadzenie dowolnej liczby ca³kowitej.Nastêpnie program powinien obliczyæ i wyœwietliæ liczbê cyfr.
+ void task4()
+{
+	 int number, number2 = 0 ;
+	 do
+	 {
+		 std::cout << "Podaj liczbe ca³kowit¹ : \n";
+		 std::cin >> number;
+	 } while (number < 0);
+	 
+	 do
+	 {
+		 number = number / 10;
+		 number2++;
+	 } while (number != 0);
+		 
+	 std::cout << "Iloœæ cyfr wynosi : " << number2;
+}
+ //Napisz program, który sprawdza czy wiêcej jest cyfr parzystych, czy nieparzystych we wczytanej liczbie.f
+ void task5()
+ {
+	 int task5();
+	 {
+
+
+
+	 }
+
+
+
+
+ }
+
 int main()
 {
 	//task2();
-	task3();
+	//task3();
+	//task4();
+	task5();
 }
-
-
+/*
+*Napisz program, który poprosi u¿ytkownika o wprowadzenie dowolnej liczby ca³kowitej.Nastêpnie program powinien obliczyæ i wyœwietliæ liczbê cyfr.
+* Napisz program, który sprawdza czy wiêcej jest cyfr parzystych, czy nieparzystych we wczytanej liczbie.
+* Poproœ u¿ytkownika o podawanie liczb, a¿ wprowadzi zero.Oblicz sumê oraz œredni¹ arytmetyczn¹ wprowadzonych liczb.
+*/

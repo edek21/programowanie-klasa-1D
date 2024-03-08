@@ -74,15 +74,60 @@ void task3()
 		cityT = cityB * 1.03;
 		cityB = cityT * 1.02;
 	}
+}
+void task4()
+{
+
+	int number;
+
+	do
+	{
+		std::cout << "Podaj pierwsz¹ liczbê dodatni¹: \n";
+		std::cin >> number;
+	} while (number < 0);
+
+	int tmpNumber = number;
+	int reversNumber = 0;
+	while (tmpNumber > 0)
+	{
+		int rest = tmpNumber % 10;
+		reversNumber = reversNumber * 10 + rest;
+		tmpNumber = tmpNumber / 10;
+	}
+
+	if (number == reversNumber)
+		std::cout << "Liczba jest palindromem";
+	else
+		std::cout << "Liczba jest nie palindromem";
+
+}
+void task5()
+{
+	int number;
+	std::cout << "Podaj liczbę dodatnia\n";
+	std::cin >> number; 
+	int number, counter = 0;
+
+	do
+	{
+		std::cout << "Podaj pierwsz¹ liczbê dodatni¹: \n";
+		std::cin >> number;
+	} while (number < 0);
 
 
-
+	while (counter != number)
+	{
+		std::cout << "Hello World\n";
+		counter++;
+	}
 }
 int main()
 {
 	//task1();
 	//task2();
-	task3();
+	//task3();
+	//task4();
+	task5();
 }
 
 //Miasto T.ma obecnie 100 tys.mieszkańców, ale jego populacja rośnie co roku o 3 % rocznie.

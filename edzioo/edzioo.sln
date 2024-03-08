@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoopDoWhileConsoleApplicati
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoopWhileConsoleApplication", "LoopWhileConsoleApplication\LoopWhileConsoleApplication.vcxproj", "{ACBB2EA3-C44B-4AFE-AF73-BE9AD3AD58E9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoopForConsoleApplication1", "LoopForConsoleApplication1\LoopForConsoleApplication1.vcxproj", "{39409ACC-1981-4780-8360-9B401A1EE54A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -85,6 +87,14 @@ Global
 		{ACBB2EA3-C44B-4AFE-AF73-BE9AD3AD58E9}.Release|x64.Build.0 = Release|x64
 		{ACBB2EA3-C44B-4AFE-AF73-BE9AD3AD58E9}.Release|x86.ActiveCfg = Release|Win32
 		{ACBB2EA3-C44B-4AFE-AF73-BE9AD3AD58E9}.Release|x86.Build.0 = Release|Win32
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Debug|x64.ActiveCfg = Debug|x64
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Debug|x64.Build.0 = Debug|x64
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Debug|x86.ActiveCfg = Debug|Win32
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Debug|x86.Build.0 = Debug|Win32
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Release|x64.ActiveCfg = Release|x64
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Release|x64.Build.0 = Release|x64
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Release|x86.ActiveCfg = Release|Win32
+		{39409ACC-1981-4780-8360-9B401A1EE54A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +107,7 @@ Global
 		{3BA1DAE9-5570-4DCF-91EB-C733FBA668A7} = {7D67C897-7967-46D7-B989-7E99DC6B08B5}
 		{C8A09C14-FBE7-462F-A9CF-D18D4EA1DB3C} = {7D67C897-7967-46D7-B989-7E99DC6B08B5}
 		{ACBB2EA3-C44B-4AFE-AF73-BE9AD3AD58E9} = {7D67C897-7967-46D7-B989-7E99DC6B08B5}
+		{39409ACC-1981-4780-8360-9B401A1EE54A} = {7D67C897-7967-46D7-B989-7E99DC6B08B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEC34872-0615-49C9-AEC7-95F21C6D6349}

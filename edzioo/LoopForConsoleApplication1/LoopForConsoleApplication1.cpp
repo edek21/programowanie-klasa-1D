@@ -69,15 +69,41 @@ void task3()
 //Program obliczający sumę liczb od 1 do 100
 void task4()
 {
+	int sum = 0, number;
 
+	for (int i = 1; i <= 100; i++)
+	{
+		sum += i;
+	}
 
-
+	std::cout << "Suma liczb od 1 do 100 wynosi: " << sum;
 }
+/*
+Program sprawdzający czy podana liczba jest liczbą doskonałą(czyli taką, której suma dzielników(z wyłączeniem samej siebie) jest równa danej
+liczbie, np. 6 jest liczbą doskonałą, ponieważ 1 + 2 + 3 = 6).
+*/
+void task5()
+{
+	int sumOfDivisors = 0, number;
+
+	do
+	{
+		std::cout << "Podaj liczbę: \n";
+		std::cin >> number;
+	} while (number < 0);
+}
+
+
+
+
+
+
 int main()
 {
 	//task1();
 	//task2();
 	//task3();
-	task4();
+	//task4();
+	task5();
 }
 

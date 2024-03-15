@@ -92,7 +92,24 @@ void task5()
 		std::cin >> number;
 	} while (number < 0);
 }
+//Program obliczający n!.
+void task6()
+{
+	int number, silnia = 1;
 
+	do
+	{
+		std::cout << "Podaj liczbę dodatnią: ";
+		std::cin >> number;
+	} while (number < 0);
+
+	for (int i = number; i > 1; i--)
+	{
+		silnia *= i;
+	}
+
+	std::cout << "Silnia z liczby " << number << " wynosi: " << silnia;
+}
 
 
 
@@ -104,6 +121,7 @@ int main()
 	//task2();
 	//task3();
 	//task4();
-	task5();
+	//task5();
+	task6();
 }
 

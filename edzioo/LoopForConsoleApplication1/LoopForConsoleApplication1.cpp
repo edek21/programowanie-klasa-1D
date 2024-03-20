@@ -35,10 +35,7 @@ void task2()
 	{
 		std::cout << i << "\n";
 	}
-}
-
-
-
+}   
 	//Namaluj równoleglobok z "X". Wysokosc i szeokosc wczytaj z klawiatury.
 void task3()
 {
@@ -111,7 +108,70 @@ void task6()
 	std::cout << "Silnia z liczby " << number << " wynosi: " << silnia;
 }
 
+//Program obliczający sumę kwadratów liczb od 1 do 10
+void task7()
+{
+	int sum = 0;
 
+	for (int i = 1; i <= 10; i++)
+	{
+		sum += i * i;
+	}
+	std::cout << "Suma kwadratów liczb od 1 do 10 wynosi: " << sum;
+}
+
+//Program, który wczyta podstawę oraz wykładnik oraz wyliczy wynik.
+void task8()
+{
+	int result = 1, base, exponent;
+
+	std::cout << "Podaj podstawę: ";
+	std::cin >> base;
+	std::cout << "Podaj wykładnik: ";
+	std::cin >> exponent;
+
+	for (int i = 0; i < exponent; i++)
+	{
+		result *= base;
+	}
+	std::cout << "Wynik wynosi :" << result;
+}
+
+//Program wyświetlający na ekranie wszystkie liczby podzielne przez 3 z zakresu od 1 do 100
+void task9()
+{
+	for (int i = 0; i <= 100; i++)
+	{
+		if (i % 3 == 0)
+			std::cout << i << ", ";
+	}
+}
+
+//Program wyświetlający na ekranie tabliczkę mnożenia od 1 do 9 (np. 1x1=1, 1x2=2, 1x3=3 itd.).
+void task10()
+{
+	for (int i = 1; i <= 9; i++)
+	{
+		for (int j = 1; j <= 9; j++)
+		{
+			std::cout << i << "x" << j << "=" << i * j << "\n";
+		}
+	}
+}
+
+//Program wyświetlający na ekranie silnie z liczb od 1 do 10 (np. 1!, 2!, 3!, 4!itd.)
+void task11()
+{
+	for (int i = 1; i <= 10; i++)
+	{
+		int silnia = 1;
+		for (int j = 1; j <= i; j++)
+		{
+			silnia *= j;
+		}
+		std::cout << "Silnia z " << i << " to " << silnia << "\n";
+	}
+}
 
 
 
@@ -122,6 +182,12 @@ int main()
 	//task3();
 	//task4();
 	//task5();
-	task6();
+	//task6();
+	//task7();
+	//task8();
+	//task9();
+	//task10();
+	//task11();
+	
 }
 

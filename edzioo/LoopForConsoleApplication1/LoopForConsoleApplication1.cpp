@@ -172,7 +172,7 @@ void task11()
 		std::cout << "Silnia z " << i << " to " << silnia << "\n";
 	}
 }
-
+//
 
 
 int main()

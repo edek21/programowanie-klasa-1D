@@ -76,14 +76,34 @@ void task5()
 	}
 	std::cout << "Ma³ych liter 'a' jest: " << counter << "\n";
 }
+//Napisz program który bêdzie prosi³ o has³o,nie przepuœci dalej dopóki nie zostanie ono podane prawid³owo
+void task6()
+{
+	std::string pasword = "abc123";
+	std::string userGuess;
 
+	do {
+		std::cout << "Podaj has³o:  ";
+		std::cin >> userGuess;
+	} while (userGuess != pasword);
+	std::cout << "Zgad³eœ has³o!";
+}
+//Napisz program który pobiera ci¹g znaków od urzytkownika i wyœwietla liczbê samog³osek i wspó³g³osek w tym ci¹gu
+void task7()
+{
+
+
+
+}
 int main()
 {
 	//task1();
 	//task2();
 	//task3();
 	//task4();
-	task5();
+	//task5();
+	//task6();
+	task7();
 }
 
 

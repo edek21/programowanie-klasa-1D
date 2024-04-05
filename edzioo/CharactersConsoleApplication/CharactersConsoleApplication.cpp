@@ -57,9 +57,24 @@ void task4()
 }
 void task5()
 {
+	std::string textFromUser;
+	std::cout << "Podaj tekst\n";
+	std::cin >> textFromUser;
 
+	std::cout << "Podany tekst: " << textFromUser << "\n";
+	std::cout << "Pierwszy znak w tekœcie: " << textFromUser[0] << "\n";
+	std::cout << "Drugi znak w tekœcie: " << textFromUser[1] << "\n";
+	int lenght = textFromUser.length();
+	std::cout << "D³ugoœæ ³añcucha znaków: " << lenght << "\n";
+	std::cout << "Ostatni znak w tekœcie: " << textFromUser[lenght - 1] << "\n";
 
-
+	int counter = 0;
+	for (int i = 0; i < lenght; i++)
+	{
+		if (textFromUser[i] == 'a')
+			counter++;
+	}
+	std::cout << "Ma³ych liter 'a' jest: " << counter << "\n";
 }
 
 int main()

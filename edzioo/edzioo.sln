@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. kolekcje", "03. kolekcj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharactersConsoleApplication", "CharactersConsoleApplication\CharactersConsoleApplication.vcxproj", "{5C2F2778-EFB5-4E08-BFFB-1AF2C630415F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArrayConsoleApplication", "ArrayConsoleApplication\ArrayConsoleApplication.vcxproj", "{7D7ABA54-B615-4544-8398-0A9C7CB520BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -107,6 +109,14 @@ Global
 		{5C2F2778-EFB5-4E08-BFFB-1AF2C630415F}.Release|x64.Build.0 = Release|x64
 		{5C2F2778-EFB5-4E08-BFFB-1AF2C630415F}.Release|x86.ActiveCfg = Release|Win32
 		{5C2F2778-EFB5-4E08-BFFB-1AF2C630415F}.Release|x86.Build.0 = Release|Win32
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Debug|x64.ActiveCfg = Debug|x64
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Debug|x64.Build.0 = Debug|x64
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Debug|x86.Build.0 = Debug|Win32
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Release|x64.ActiveCfg = Release|x64
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Release|x64.Build.0 = Release|x64
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Release|x86.ActiveCfg = Release|Win32
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +131,7 @@ Global
 		{ACBB2EA3-C44B-4AFE-AF73-BE9AD3AD58E9} = {7D67C897-7967-46D7-B989-7E99DC6B08B5}
 		{39409ACC-1981-4780-8360-9B401A1EE54A} = {7D67C897-7967-46D7-B989-7E99DC6B08B5}
 		{5C2F2778-EFB5-4E08-BFFB-1AF2C630415F} = {52E6B7CA-5174-43A5-9A65-2663526A595D}
+		{7D7ABA54-B615-4544-8398-0A9C7CB520BB} = {52E6B7CA-5174-43A5-9A65-2663526A595D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CEC34872-0615-49C9-AEC7-95F21C6D6349}

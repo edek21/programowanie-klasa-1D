@@ -68,11 +68,36 @@ void task2()
     double arithmeticAverage = sum * 1.0 / ARRAY_NUMBER_SIZE;
 
     std::cout << "Œrednia arytmetyczna tych elementów tablicy wynosi: " << arithmeticAverage << "\n";
+
+int max = numbers[0];
+for (int i = 1; i < ARRAY_NUMBER_SIZE; i++)
+{
+    if (numbers[i] > max)
+        max = numbers[i];
+}
+std::cout << "Maksymalna liczba pod wzglêdem wielkoœci w tablicy wynosi: " << max << "\n";
+
+int min = numbers[0];
+for (int i = 1; i < ARRAY_NUMBER_SIZE; i++)
+{
+    if (numbers[i] < min)
+        min = numbers[i];
+}
+std::cout << "Najmniejsza liczba pod wzglêdem wielkoœci w tablicy wynosi: " << min << "\n";
+}
+
+void task3()
+{
+
+
+
+
 }
 int main()
 {
    // task1();
-  task2();
+   // task2();
+    task3();
 }
 
 

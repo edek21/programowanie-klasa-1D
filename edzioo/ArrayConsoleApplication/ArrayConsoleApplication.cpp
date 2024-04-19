@@ -59,7 +59,7 @@ void task2()
     }
     std::cout << "\n\n";
 
-    int sum = numbers[0]; //przyspieszenie poprzez przypisanie sumie indeksu 0, co skraca pêtle. W poprzednch programach nie zastosowane.
+    int sum = numbers[0]; //przyspieszenie poprzez przypisanie sumie indeksu 0, co skraca pêtle. W poprzednch programach nie zastosowane..
     for (int i = 1; i < ARRAY_NUMBER_SIZE; i++)
     {
         sum = sum + numbers[i];
